@@ -1,0 +1,21 @@
+{
+  "name" : "Facebook Timekeeper",
+  "version" : "1",
+  "description" : "A Time keeping extension for FB users to keep track of their time usage on people's profiles",
+  "permissions": [ "cookies","<all_urls>","tabs", "storage", "activeTab"],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["jquery_3.2.1.min.js", "UpdateHandlers.js", "EventHandlers.js"]
+  },
+  "content_scripts": [{
+    "matches": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "js": ["jquery_3.2.1.min.js", "content.js"]
+  }],
+  "content_security_policy": "script-src 'self' https://unpkg.com/react@15/dist/react.js https://unpkg.com/react-dom@15/dist/react-dom.js; object-src 'self'",
+  "manifest_version": 2
+}

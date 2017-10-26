@@ -1,0 +1,15 @@
+https://developer.chrome.com/extensions/getstarted - startup tutorial for building a chrome extension
+
+https://stackoverflow.com/questions/13607528/chrome-extension-get-current-page-cookie-and-same-to-plugin-local-storage - helped on retrieving cookies
+
+https://stackoverflow.com/questions/5766263/run-settimeout-only-when-tab-is-active - helped on tab focus detection and timer.
+
+https://stackoverflow.com/questions/21314897/access-dom-elements-through-chrome-extension - helped on accessing DOM through content scripts.
+
+https://stackoverflow.com/questions/18766886/unable-to-trigger-chrome-browseraction-onclicked-addlistener-with-google-chrome
+
+https://stackoverflow.com/questions/17789426/whitelist-multiple-domains-in-content-security-policy - Helped on defining the syntax for CSP with multiple sources
+
+https://facebook.github.io/react/docs/react-without-jsx.html - Helped on writing React without jsx
+
+https://stackoverflow.com/questions/34086271/chrome-extension-passing-data-from-background-to-custom-html-page

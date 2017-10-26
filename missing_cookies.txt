@@ -1,0 +1,5 @@
+1. xs
+2. c_user
+3. pl
+
+datr, c_user, xs are sufficient to determine if user is logged in.
